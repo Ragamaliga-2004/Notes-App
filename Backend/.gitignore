@@ -1,0 +1,42 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Log files
+*.log
+
+# MySQL dump files
+*.sql
+
+# Compiled C extensions
+*.so
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# IDE files
+.idea/
+*.iml
+
+# Uvicorn reload file (if created)
+reload.*
