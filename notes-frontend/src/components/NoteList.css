@@ -1,0 +1,43 @@
+.note-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note {
+  background-color: #f0f4f8;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.note h3 {
+  margin: 0 0 10px 0;
+  color: #112d4e;
+}
+
+.note p {
+  margin: 0;
+  color: #333;
+}
+
+.note-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.note-buttons button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #3f72af;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.note-buttons button:hover {
+  background-color: #2f5d9c;
+}
